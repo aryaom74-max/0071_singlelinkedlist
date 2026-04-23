@@ -9,3 +9,15 @@ public:
     Node *next;
 };
 
+class LinkedList
+{
+private:
+    Node *START;
+
+public:
+    LinkedList()
+    {
+        START = NULL;
+    }
+
+   

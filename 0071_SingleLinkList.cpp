@@ -174,4 +174,6 @@ int main()
                 cout << "\nData tidak ditemukan\n";
             }
             break;
+        }
+
         

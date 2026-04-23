@@ -175,5 +175,15 @@ int main()
             }
             break;
         }
+            case '5':
+            cout << "\nKeluar program...\n";
+            break;
 
-        
+        default:
+            cout << "\nPilihan tidak valid!\n";
+        }
+
+    } while (pilihan != '5');
+
+    return 0;
+}

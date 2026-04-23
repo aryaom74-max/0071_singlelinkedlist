@@ -160,5 +160,18 @@ int main()
                 cout << "\nList kosong\n";
                 break;
             }
+            Node *prev, *curr;
+            cout << "\nMasukkan NIM yang dicari: ";
+            cin >> nim;
 
-            
+            if (mhs.search(nim, prev, curr))
+            {
+                cout << "\nData ditemukan\n";
+                cout << "NIM: " << curr->noMhs << endl;
+            }
+            else
+            {
+                cout << "\nData tidak ditemukan\n";
+            }
+            break;
+        

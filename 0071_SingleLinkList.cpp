@@ -183,7 +183,7 @@ int main()
             cout << "\nPilihan tidak valid!\n";
         }
 
-    } while (pili != '5');
+    } while (pilih != '5');
 
     return 0;
 }
